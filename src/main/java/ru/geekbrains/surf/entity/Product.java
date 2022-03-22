@@ -28,6 +28,7 @@ public class Product {
 
     @Column(length = 65535)
     @Type(type="text")
+
     private String description;
 
     @OneToOne(cascade = CascadeType.ALL )
